@@ -1,0 +1,8 @@
+a=int(input("Podaj rok urodzenia"))
+b=2023
+
+result=b-a
+if 15<result:
+    print("Gratulacje masz więcej niż 15 lat")
+else:
+    print("Cześć jesteś za młody",result)
